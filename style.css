@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 
 html {
     box-sizing: border-box;
@@ -36,4 +36,52 @@ header {
 .navigation-buttons {
     display: flex;
     gap: 24px;
+}
+
+header,
+.hero,
+footer {
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.info,
+.navigation-buttons a {
+    font-size: 18px;
+}
+
+.light {
+    color: #E5E7EB;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.signup-button,
+.signup {
+    background-color: #3882F6;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
 }
