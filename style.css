@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 
 html {
     box-sizing: border-box;
@@ -26,18 +26,6 @@ a {
     text-decoration: none;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 64px;
-}
-
-.navigation-buttons {
-    display: flex;
-    gap: 24px;
-}
-
 header,
 .hero,
 footer {
@@ -47,6 +35,7 @@ footer {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 700;
 }
 
 .info,
@@ -84,4 +73,27 @@ footer {
 
 .quote {
     background-color: #E5E7EB;
+}
+
+.signup-header,
+.quote-author {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.signup-button {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 64px;
+}
+
+.navigation-buttons {
+    display: flex;
+    gap: 24px;
 }
