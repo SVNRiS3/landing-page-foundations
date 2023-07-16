@@ -160,3 +160,22 @@ header {
     align-self: flex-end;
     padding: 32px;
 }
+
+.signup {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px;
+    padding: 40px 100px;
+    border-radius: 10px;
+}
+
+.signup>.signup-button {
+    border: 2px solid #E5E7EB;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 200px;
+}
