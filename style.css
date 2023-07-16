@@ -90,7 +90,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 64px;
+    padding: 16px 200px;
 }
 
 .navigation-buttons {
